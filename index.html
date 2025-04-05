@@ -17,7 +17,54 @@
   </head>
 
   <body>
-    <svg width="600" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600">
+    <svg width="900" height="600" xmlns="http://www.w3.org/2000/svg" viewBox="0 -20 900 600">
+    <!-- Background -->
+     <rect x="0" y="0" width="900" height="600" fill="rgb(240,240,240)"/>
+     
+     <!-- Title -->
+     <text x="300" y="31" font-size="1.5rem">Valores mensais IPCA e IGPM</text>
+     <text x="418" y="62" font-size="1.5rem">2024</text>
+     
+     <!-- Subtitle -->     
+     <rect x="359" y="92" width="20" height="18" rx="128" ry="128" fill="blue"/>
+     <text x="389" y="105" font-size="0.8rem">IPCA</text>
+     
+     <rect x="481" y="92" width="20" height="18" rx="128" ry="128" fill="green"/>
+     <text x="511" y="105" font-size="0.8rem">IGPM</text>
+ 
+     <!-- Y axis lines -->
+     <line x1="80" y1="170" x2="870" y2="170" stroke="gray" stroke-width="0.5" stroke-dasharray="2,2"/>
+     <line x1="80" y1="245" x2="870" y2="245" stroke="gray" stroke-width="0.5" stroke-dasharray="2,2"/>
+     <line x1="80" y1="320" x2="870" y2="320" stroke="gray" stroke-width="0.5" stroke-dasharray="2,2"/>
+     <line x1="80" y1="395" x2="870" y2="395" stroke="gray" stroke-width="0.5" stroke-dasharray="2,2"/>
+     <line x1="80" y1="470" x2="870" y2="470" stroke="gray" stroke-width="0.5" stroke-dasharray="2,2"/>
+     <line x1="80" y1="530" x2="870" y2="530" stroke="black" stroke-width="0.5" />
+
+     <!-- Y axis -->
+     <g class="y-axis">
+      <text x="30" y="170" font-size="1rem">1.5%</text>
+      <text x="30" y="245" font-size="1rem">1.0%</text>
+      <text x="30" y="320" font-size="1rem">0.5%</text>
+      <text x="30" y="395" font-size="1rem">0%</text>
+      <text x="30" y="470" font-size="1rem">-0.5%</text>
+     </g>
+     
+     <!-- X line-->
+     <line x1="80" y1="130" x2="80" y2="530" stroke="black" stroke-width="0.5" />
+
+     <!-- X axis-->
+     <text x="113" y="550" font-size="1rem">Jan</text>
+     <text x="178" y="550" font-size="1rem">Fev</text>
+     <text x="243" y="550" font-size="1rem">Mar</text>
+     <text x="308" y="550" font-size="1rem">Abr</text>
+     <text x="373" y="550" font-size="1rem">Mai</text>
+     <text x="438" y="550" font-size="1rem">Jun</text>
+     <text x="503" y="550" font-size="1rem">Jul</text>
+     <text x="568" y="550" font-size="1rem">Ago</text>
+     <text x="633" y="550" font-size="1rem">Set</text>
+     <text x="698" y="550" font-size="1rem">Out</text>
+     <text x="763" y="550" font-size="1rem">Nov</text>
+     <text x="828" y="550" font-size="1rem">Dez</text>
     </svg>
   </body>
 </html>
